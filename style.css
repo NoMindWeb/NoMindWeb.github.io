@@ -18,7 +18,7 @@ body {
     font-size: 37px;
     display: flex;
     align-items: center;
-    justify-content: space-between
+    justify-content: space-between;
 }
 
 .col-container {
@@ -37,7 +37,7 @@ body {
     left: 35px;
     top: 250px;
     font-size: 35px;
-    text-shadow: 5px 5px 5px rgba(0,0,0, 0.8)
+    text-shadow: 5px 5px 5px rgba(0,0,0, 0.8);
 }
 
 .erklärung {
@@ -70,10 +70,7 @@ body {
     width: 100vw;
     height: 8.8vw;
     color: rgb(219, 219, 219);
-
 }
-
-
 
 .container2 {
     position: relative;
@@ -166,4 +163,138 @@ body {
 .imgs:hover {
     transform: scale(0.95);
     filter: brightness(0.7);
-  }
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1200px) {
+    .container {
+        font-size: 30px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text {
+        font-size: 30px;
+        top: 200px;
+    }
+
+    .line {
+        top: 650px;
+        height: 10vw;
+    }
+
+    .container2 .glass {
+        width: 150px;
+        height: 170px;
+        left: 600px;
+    }
+
+    .Working {
+        left: 30vw;
+        top: 15vw;
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 900px) {
+    .container {
+        font-size: 25px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .text {
+        font-size: 25px;
+        top: 150px;
+    }
+
+    .line {
+        top: 600px;
+        height: 12vw;
+    }
+
+    .container2 .glass {
+        width: 130px;
+        height: 150px;
+        left: 500px;
+    }
+
+    .Working {
+        left: 20vw;
+        top: 20vw;
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        font-size: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text {
+        font-size: 20px;
+        top: 100px;
+    }
+
+    .line {
+        top: 550px;
+        height: 15vw;
+    }
+
+    .container2 .glass {
+        width: 120px;
+        height: 140px;
+        left: 400px;
+    }
+
+    .Working {
+        left: 10vw;
+        top: 25vw;
+        font-size: 18px;
+    }
+
+    .imgs {
+        left: 50vw;
+        top: 20vw;
+        transform: scale(0.9);
+    }
+}
+
+@media (max-width: 400px) {
+    .container {
+        font-size: 18px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text {
+        font-size: 18px;
+        top: 80px;
+    }
+
+    .line {
+        top: 500px;
+        height: 18vw;
+    }
+
+    .container2 .glass {
+        width: 100px;
+        height: 120px;
+        left: 300px;
+    }
+
+    .Working {
+        left: 5vw;
+        top: 30vw;
+        font-size: 16px;
+    }
+
+    .imgs {
+        left: 40vw;
+        top: 25vw;
+        transform: scale(0.85);
+    }
+}
