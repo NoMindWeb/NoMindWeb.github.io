@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    background-color: rgba(27, 30, 37);
+    font-family: "Lilita One", sans-serif;
+}
+
+.images {
+    height: 350px;
+    width: 500px;
+}
+
+.titel {
+    position: absolute;
+    color: rgb(162, 201, 212);
+    left: 26vw;
+    top: 1vw;
+    font-size: 3vw;
+}
+
+.link {
+    position: absolute;
+    text-decoration: underline;
+    color: rgb(211, 195, 102);
+    font-size: 3vw;
+    left: 40vw;
+    top: 17.8vw;
+}
